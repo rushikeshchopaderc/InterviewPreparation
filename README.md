@@ -18,13 +18,21 @@ PYTHON METHODS FOR DIFFERENT DATATYPES:
 - dict1.update(dict2): Adds the key- value pairs of dict2 to dict1 and overwrites the key-value pair if it already exists in dict1.
 
 2. Arrays
-- append():
-- extend():
-- clear():
-- 
-3. Strings
-4. Sets
-5. Collections Module:
+- append(): adds an item to the end of the array
+- extend(): adds one list to another list
+- clear(): deletes the whole array
+- copy(): Creates a shallow copy of the array. This means changing the copy array also changes the original array.
+- len(): length of the array
+- pop(index): deletes the last element if no index is passed in the argument
+- remove(value): deletes the specified element from the array
+- reverse(): reverses the array
+- sort(): sorts the array in ascending order. If you want to sort it in descending order, pass a reverse=True argument
+- index(value): finds the index of the value provided as the argument. Throws an error if the value is not found.
+- insert(value, index): inserts the value at a specified index
+1. Tuples:
+2. Strings:
+3. Sets:
+4. Collections Module:
 
 
    
