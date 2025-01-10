@@ -83,11 +83,19 @@ PYTHON METHODS FOR DIFFERENT DATATYPES:
 - extendleft(list): adds the elements of the list to the left of the deque
 - rotate(num): shift the deque by num elements to the right. pass negative integers to shift towards left.
 
-7. Collections Module: This module contains a number of iterables. There are 5 main methods.
+7. Collections Module: This module contains a number of iterables. There are 5 main classes.
 - Counter: This Class is used to count the number of times an element occurs in an iterable. it has object methods like most_common(value), elements()
 - defaultdict: This Class is used to create a dictionary with default values
 - deque: This Class is used to create a deque
 - namedtuple: This Class is used to create a named tuple
 - OrderedDict: This Class is used to create an ordered dictionary
 
-   
+8. Itertools module: This module contains a number of functions that can be used to with iterators like lists, strings, tuples, etc.
+This has 6 main classes.
+- product: This class is used to get the cartesian product of the elements of an iterable
+- accumulate: This class is used to accumulate the elements of an iterable
+- permutations: This class is used to get permutations of the elements of an iterable
+- combinations: This class is used to get combinations of elements of an iterable
+- groupby: This class is used to group the elements of an iterable
+- infinite iterators: This class is used to create infinite iterators
+
