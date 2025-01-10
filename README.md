@@ -74,13 +74,20 @@ PYTHON METHODS FOR DIFFERENT DATATYPES:
 - zfill(num): adds 0 to the left till the length becomes 20
 - text.splitlines(): splits the string into lines
 
-1. Deque: Stacks (LiFo): Last in first out and Queues (FiFo): First in first out are both handled in python using deque dataype
+6. Deque: Stacks (LiFo): Last in first out and Queues (FiFo): First in first out are both handled in python using deque dataype
 - appendleft(): adds an element to the left of the deque. (Not useful for stacks or queues but useful in general)
 - popleft(): deletes the first element of the deque. Used for queues. First in first out
 - append(): adds an element to the right of the deque. Useful to add element to queue and stack
 - pop(): pops the last element of the deque.(Useful for Stacks)
+- extend(list): adds the elements of the list to the right of the deque
+- extendleft(list): adds the elements of the list to the left of the deque
+- rotate(num): shift the deque by num elements to the right. pass negative integers to shift towards left.
 
-1. Collections Module: This module contains a number of containers like deque, namedtuple, Counter, defaultdict, OrderedDict etc.
-
+7. Collections Module: This module contains a number of iterables. There are 5 main methods.
+- Counter: This Class is used to count the number of times an element occurs in an iterable. it has object methods like most_common(value), elements()
+- defaultdict: This Class is used to create a dictionary with default values
+- deque: This Class is used to create a deque
+- namedtuple: This Class is used to create a named tuple
+- OrderedDict: This Class is used to create an ordered dictionary
 
    
