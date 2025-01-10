@@ -31,18 +31,20 @@ PYTHON METHODS FOR DIFFERENT DATATYPES:
 - insert(value, index): inserts the value at a specified index
 
 3. Tuples: The identifier of a tuple is not the circular braces but the commas: (1,2,3) is a tuple and so is 1,2,3 in python
+- index(value): finds the index of the value provided as the argument. returns the first index for the value found. 
+- count(value): returns the number of times the value is found in the tuple
 
-4. Sets: A set is a collection which is unordered and unindexed. In Python, sets are written with curly brackets.
+1. Sets: A set is a collection which is unordered and unindexed. In Python, sets are written with curly brackets.
 
-5. Strings: A string is a sequence of characters. Strings are immutable in python. It is an array of characters.
+2. Strings: A string is a sequence of characters. Strings are immutable in python. It is an array of characters.
 
-6. Deque: Stacks (LiFo): Last in first out and Queues (FiFo): First in first out are both handled in python using deque dataype
+3. Deque: Stacks (LiFo): Last in first out and Queues (FiFo): First in first out are both handled in python using deque dataype
 - appendleft(): adds an element to the left of the deque. (Not useful for stacks or queues but useful in general)
 - popleft(): deletes the first element of the deque. Used for queues. First in first out
 - append(): adds an element to the right of the deque. Useful to add element to queue and stack
 - pop(): pops the last element of the deque.(Useful for Stacks)
 
-7. Collections Module: This module contains a number of containers like deque, namedtuple, Counter, defaultdict, OrderedDict etc.
+1. Collections Module: This module contains a number of containers like deque, namedtuple, Counter, defaultdict, OrderedDict etc.
 
 
    
