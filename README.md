@@ -45,11 +45,36 @@ PYTHON METHODS FOR DIFFERENT DATATYPES:
 - set1.difference(set2): gives the elements that are present in set1 but not in set2
 - set1.difference(set2,set3): gives the elements that are present in set1 but not in set2 or set3 (i.e (set2 union set3))
 - set1.symmetric_difference(set2): gives the elements that are present in set1 or set2 but not in both. (Similar to A+B-A intersection B)
-- 
 
-1. Strings: A string is a sequence of characters. Strings are immutable in python. It is an array of characters.
+5. Strings: A string is a sequence of characters. Strings are immutable in python. It is an array of characters.
+- upper(): converts the string to uppercase
+- lower(): converts the string to lowercase
+- count(value): returns the number of times the value is found in the string
+- endswith(value): checks if the string ends with the value provided as the argument
+- startswith(value): checks if the string starts with the value provided as the argument
+- find(substring): returns the index of the first occurrence of the substring
+- index(substring): returns the index of the first occurrence of the substring
+- isdigit(): checks if the string contains only digits
+- isalpha(): checks if the string contains only alphabets
+- isalnum(): checks if the string contains only digits and alphabets
+- isupper(): checks if the string contains only uppercase characters
+- islower(): checks if the string contains only lowercase characters
+- isascii(): checks if the string contains only ascii characters
+- isnumeric(): checks if the string contains only numeric characters
+- isdecimal(): checks if the string contains only decimal characters
+- isspace(): checks if the string contains only space characters
+- join(list/iterables): joins the elements of the list/iterables into a single string
+- lower(): converts the string to lowercase
+- upper(): converts the string to uppercase
+- lstrip(substring): removes the leading substring from the string
+- rstrip(substring): removes the trailing substring from the string
+- partition(character): Splits the string into three parts. The first part is the part before the character, the ehird part is the part after the character and the second part is the character itself
+- replace(this, with, limit): replacing the text with new text given number of times.
+- strip(substring): removes the substring from the string
+- zfill(num): adds 0 to the left till the length becomes 20
+- text.splitlines(): splits the string into lines
 
-2. Deque: Stacks (LiFo): Last in first out and Queues (FiFo): First in first out are both handled in python using deque dataype
+1. Deque: Stacks (LiFo): Last in first out and Queues (FiFo): First in first out are both handled in python using deque dataype
 - appendleft(): adds an element to the left of the deque. (Not useful for stacks or queues but useful in general)
 - popleft(): deletes the first element of the deque. Used for queues. First in first out
 - append(): adds an element to the right of the deque. Useful to add element to queue and stack
